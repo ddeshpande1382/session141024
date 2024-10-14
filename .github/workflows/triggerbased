@@ -1,0 +1,7 @@
+on:
+  branch_protection_rule:
+    types: [created, deleted]
+
+on:
+  schedule:
+    - cron: "*/5 * * * *"   # <=== Change this value
